@@ -30,3 +30,7 @@ router.post('/new/juggling-balls', (req, res) => {
         res.redirect('/new/juggling-trick')
     }
 })
+
+router.post('/new/juggling-trick', (req, res) => {
+    res.redirect('/new/juggling-objects')
+})
