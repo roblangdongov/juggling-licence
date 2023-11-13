@@ -64,3 +64,7 @@ router.post('/new/juggling-objects', (req, res) => {
     res.redirect('/new/check')
     }
 })
+
+router.post('/new/check', (req, res) => {
+    res.redirect('/new/confirmation')
+})
